@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 10px solid gold;
+    border-radius: 150px;
+    background: lime;
+    animation-name: box_anime;
+    animation-duration: 3s;
+    animation-delay: 0 ;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+
+@keyframes box_anime {
+    from{
+        width: 200px;
+        height: 200px;
+        background: lime;
+        border: 10px solid gold;
+    }
+    to{
+        width: 500px;
+        height: 400px;
+        background: rgb(0, 234, 255);
+        border:30px double  red;
+        border-radius: 0 80% 0 100%;
+        rotate: 80deg;
+        transform: rotate(3000deg);
+        position:relative ;
+        top: 200px;
+        left: 200px;
+
+      
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
